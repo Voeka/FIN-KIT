@@ -1,0 +1,363 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: rgba(41, 55, 78, 1);
+}
+
+.first-section{
+    background-color: rgba(203, 236, 255, 1);
+    margin-bottom: 7vw;
+}
+
+.lang{
+    position: relative;
+    text-align: right;
+    left: auto;
+    right: 10vw;
+    top: 1vw;
+    font-size: 1vw;
+}
+
+.lang .disabled{
+    color: black;
+    background-color: rgba(203, 236, 255, 1);
+    cursor: auto;
+}
+
+.lang button{
+    border-radius: 100%;
+    width: 2vw;
+    height: 2vw;
+    border: 0;
+    color: rgba(9, 98, 232, 1);
+    background-color: white;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-text{
+    color: rgba(41, 55, 78, 1);
+    font-size: 2.5vw;
+}
+
+.main-text p{
+    width: 30vw;
+    font-size: 2vw;
+}
+
+.main-text b{
+    color: rgba(9, 98, 232, 1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 0 0.5vw ;
+}
+
+.buy-demo{
+    background-color: rgba(9, 98, 232, 1);
+    color: white;
+    font-size: 1vw;
+    border: 0;
+    padding: 1vw 3vw;
+    border-radius: 5px;
+}
+
+
+
+.bigimage img{
+    height: 30vw;
+}
+
+.pluss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 2vw;
+}
+
+.plus{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 12vw;
+    padding: 0.5vw 1vw;
+    border-radius: 10px;
+    box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 1.7vw 0 1.7vw;
+
+}
+
+.plus p{
+    font-size: 1vw;
+}
+
+.plus img{
+    position: relative;
+    top: 0;
+    height: 2vw;
+    width: 2vw;
+    background-color: rgba(239, 249, 255, 1);
+    padding: 0.5vw;
+    border-radius: 100%;
+}
+
+
+.second-content{
+
+ background-color: white;
+}
+
+
+h2{
+    color: rgba(41, 55, 78, 1);
+    text-align: center;
+    margin: auto;
+    width: 25vw;
+    font-size: 2vw;
+}
+
+h2 b{
+    color: rgba(9, 98, 232, 1);
+}
+
+
+.platforms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bord{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    background-color: rgba(233, 246, 255, 1);
+    border-radius: 1vw;
+    margin: 2vw 1vw 0 1vw;
+    padding: 0 1vw 0 1vw;
+}
+
+.bord p{
+    font-size: 1vw;
+    color: black;
+}
+
+.bord img{
+    height: 15vw;
+}
+
+.bord p b{
+    font-size: 1.4vw;
+}
+
+.cash{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65vw;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+
+.left-cash h3{
+    font-size: 2vw;
+    color: rgba(41, 55, 78, 1);
+}
+
+.left-cash h3 b{
+    color: rgba(9, 98, 232, 1);
+}
+
+.left-cash p{
+    font-size: 1vw;
+    width: 23vw;
+    margin-right: 12vw;
+}
+
+.right-cash{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: space-between;
+}
+
+.right-cash .cashes{
+    width: 12vw;
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+.cashes img{
+    width: 2vw;
+}
+
+
+@media screen and (max-width: 780px){
+
+    .first-section{
+        padding: 0 2vw 0 2vw;
+    }
+
+    h1{
+        margin-bottom: 1vw;
+
+    }
+
+    .lang button{
+        height: 8vw;
+        width: 8vw;
+    }
+    
+    .main-content{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .main-text{
+        font-size: 10vw;
+    }
+
+    .main-text p{
+        font-size: 6vw;
+        width: 100%;
+        
+    }
+
+    .bigimage img{
+        height: auto;
+        width: 100%;
+        margin-bottom: -20vw;
+        overflow: hidden;
+        text-align: center;
+        
+    }
+
+    .buy-demo{
+        font-size: 8vw;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vw;
+    }
+
+    .pluss{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        top: 0;
+    }
+
+    .plus{
+        width: 44%;
+        flex-direction: column-reverse;
+        margin-bottom: 5vw;
+        
+        
+    }
+
+    .plus p{
+        font-size: 5vw;
+        margin-left: 2vw;
+        
+    }
+
+    .plus img{
+        width: 10vw;
+        height: 10vw;
+        margin-left: 2vw;
+    }
+
+
+    
+    .second-content{
+        padding: 0 2vw 0 2vw;
+    
+   }
+
+
+    h2{
+        font-size: 7.7vw;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .platforms{
+        flex-direction: column;
+    }
+
+    .bord{
+        width: 90%;
+    }
+
+    .bord p{
+        font-size: 4vw;
+        color: rgba(41, 55, 78, 1);
+        margin-left: 3vw;
+    }
+
+    .bord img{
+        height: 55vw;
+        position: relative;
+        top: auto;
+        bottom: 0;
+    }
+
+    .bord p b{
+        font-size: 5vw;
+    }
+
+    .cash{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .left-cash h3{
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .left-cash p{
+        font-size: 6vw;
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 3vw;
+
+    }
+
+    
+
+    .right-cash .cashes{
+        width: 44%;
+        margin: 1vw;
+        font-size: 6vw;
+        box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+
+    .cashes img{
+        width: 10vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+
+    .cashes p{
+        margin-left: 2vw;
+    }
+
+
+    
+
+  }
